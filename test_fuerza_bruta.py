@@ -1,8 +1,8 @@
 from fuerza_bruta.py import *
 
 def test_fuerza_bruta():
-    contraseña1 = "password"
-    contraseña2 = "welcome123"
+    contraseña1 = "hOl4_bu3na5_t4RdeS"
+    contraseña2 = "4Nd3sta3R8et1"
 
-    assert calcula_sha(contraseña1) == "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8"
-    assert calcula_sha(contraseña2) == "a68349561396ec264a350847024a4521d00beaa3358660c2709a80f31c7acdd0"
+    assert calcula_sha(contraseña1) == "dd523a9b5e23cfdf71f445e5873842a1baaab4c17f493930929f182cb0b7fb17"
+    assert calcula_sha(contraseña2) == "8a3edce1ec6610c03978a7a5d3923ceed966fa555d93614e87a7a3dac1c03099"
