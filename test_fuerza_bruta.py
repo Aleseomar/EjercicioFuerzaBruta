@@ -1,4 +1,4 @@
-from fuerza_bruta.py import *
+from fuerza_bruta import *
 
 def test_fuerza_bruta():
     contraseña1 = "hOl4_bu3na5_t4RdeS"
