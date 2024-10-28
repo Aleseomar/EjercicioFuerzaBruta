@@ -3,10 +3,18 @@
 **Realizado por:** *GRUPO 3*  
 
 **Participantes:**
+
 - Álvaro González
 - Alejandro Seoane
 - Israel Valderrama
 
+****
+
+**Definición del ejercicio**  
+
+Desarrollar en equipo un script que permita usando técnicas de fuerza bruta, comprobar usando un diccionario el texto con el que se generó un valor usando un algoritmo SHA.
+
+****
 
 **Perfiles y labores del grupo:**
 
@@ -21,6 +29,7 @@ Se encargará de organizar las tareas, crear el soporte del proyecto y se asegur
 
 5.- ***Developer:*** Javier Ortega e Israel Valderrama. Desarrollarán el código.
 
+****
 
 **Realización:**
 
