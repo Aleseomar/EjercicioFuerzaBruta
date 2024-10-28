@@ -21,3 +21,4 @@ Alejandro Seoane(diccionario de contraseñas) y Álvaro González (librería par
 4.- ***Devops:*** Javier Ortega e Israel Valderrama. Organizarán el procedimiento para automatizar la ejecución de las pruebas de código.
 
 5.- ***Developer:*** Javier Ortega e Israel Valderrama. Desarrollarán el código.
+
