@@ -13,8 +13,7 @@
 1.- ***Product owner:*** Alejandro Seoane.   
 Se encargará de organizar las tareas, crear el soporte del proyecto y se asegura del cumplimiento del calendario.
 
-2.- ***Technical chief:*** Investigaran las tecnologías necesarias para el desarrollo.   
-Alejandro Seoane(diccionario de contraseñas) y Álvaro González (librería para calcular el sha de las contraseñas). 
+2.- ***Technical chief:*** Alejandro Seoane y Álvaro González. Investigaran las tecnologías necesarias para el desarrollo.   
 
 3.- ***Q&A:*** Álvaro González. Desarrollará las pruebas del código.
 
@@ -22,3 +21,10 @@ Alejandro Seoane(diccionario de contraseñas) y Álvaro González (librería par
 
 5.- ***Developer:*** Javier Ortega e Israel Valderrama. Desarrollarán el código.
 
+
+**Realización:**
+
+- Alejandro encontro un diccionario con un montón de contraseñas comunes para poder realizar las pruebas.
+- Álvaro  encontro una librería llamada hashlib para ejecutar los cáculos del sha de las contraseñas. Se ha asegurado de que sea segura ya que el único CVE es de 2008 y ya está parcheado.
+- Posteriormente hemos creado el test que usaremos posteriormente que verifica la contraseña.
+- Por último, entre Javi e Israel han programado el programa para automatizar la lectura de las contraseñas, transformarlas con el sha y compararlas
