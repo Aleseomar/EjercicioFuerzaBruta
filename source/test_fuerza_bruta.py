@@ -8,7 +8,7 @@ def test_calcula():
     assert calcula_sha(contraseña2) == "8a3edce1ec6610c03978a7a5d3923ceed966fa555d93614e87a7a3dac1c03099"
 
 def test_comparacion():
-    contraseña = 'Administrator'
+    contraseña = 'e7d3e769f3f593dadcb8634cc5b09fc90dd3a61c4a06a79cb0923662fe6fae6b'
     lista = 'contrasenas_test.txt'
 
     assert comparacion_sha(lista,contraseña) == True
