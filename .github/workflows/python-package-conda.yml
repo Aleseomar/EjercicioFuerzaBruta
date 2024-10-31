@@ -1,0 +1,40 @@
+name: Python Tests
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Run tests
+      run: python -m pytest
+    
+    - name: Update README
+      if: always()
+      run: |
+        git config user.name "$(git log -n 1 --pretty=format:%an)"
+        git config user.email "$(git log -n 1 --pretty=format:%ae)"
+        
+        if [ ${{ job.status }} == "success" ]; then
+          echo "Tests passed" >> README.md
+        else
+          echo "Tests failed" >> README.md
+        fi
+        
+        echo "Last run by: $(git log -n 1 --pretty=format:%an) on $(date)" >> README.md
+        
+        git add README.md
+        git commit -m "Update test status in README [skip ci]"
+        git push
