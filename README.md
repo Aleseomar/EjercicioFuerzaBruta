@@ -7,6 +7,7 @@
 - Álvaro González
 - Alejandro Seoane
 - Israel Valderrama
+- Víctor Jiménez
 
 ****
 
