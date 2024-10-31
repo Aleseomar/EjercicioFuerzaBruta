@@ -30,7 +30,7 @@ Se encargará de organizar las tareas, crear el soporte del proyecto y se asegur
 
 4.- ***Devops:*** Álvaro González y Victor Jiménez. Organizarán el procedimiento para automatizar la ejecución de las pruebas de código.
 
-5.- ***Developer:*** Javier Ortega e Israel Valderrama. Desarrollarán el código.
+5.- ***Developer:*** Javier Ortega e Israel Valderrama. Desarrollará el código.
 
 ****
 
@@ -39,4 +39,5 @@ Se encargará de organizar las tareas, crear el soporte del proyecto y se asegur
 - Alejandro encontro un diccionario con un montón de contraseñas comunes para poder realizar las pruebas.
 - Álvaro  encontro una librería llamada hashlib para ejecutar los cáculos del sha de las contraseñas. Se ha asegurado de que sea segura ya que el único CVE es de 2008 y ya está parcheado.
 - Posteriormente hemos creado el test que usaremos posteriormente que verifica la contraseña.
+- Victor y Álvaro automatizaron la ejecución de los test del código con cada push.
 - Por último, entre Javi e Israel han programado el programa para automatizar la lectura de las contraseñas, transformarlas con el sha y compararlas
