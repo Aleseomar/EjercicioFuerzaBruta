@@ -1,3 +1,5 @@
+[![Python Tests](https://github.com/Aleseomar/EjercicioFuerzaBruta/actions/workflows/python-package-conda.yml/badge.svg)](https://github.com/Aleseomar/EjercicioFuerzaBruta/actions/workflows/python-package-conda.yml)
+
 # EjercicioFuerzaBruta
 
 **Realizado por:** *GRUPO 3*  
