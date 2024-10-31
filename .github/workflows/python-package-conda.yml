@@ -19,22 +19,7 @@ jobs:
         pip install pytest
     
     - name: Run tests
-      run: python -m pytest
-    
-    - name: Update README
-      if: always()
       run: |
-        git config user.name "$(git log -n 1 --pretty=format:%an)"
-        git config user.email "$(git log -n 1 --pretty=format:%ae)"
-        
-        if [ ${{ job.status }} == "success" ]; then
-          echo "Tests passed" >> README.md
-        else
-          echo "Tests failed" >> README.md
-        fi
-        
-        echo "Last run by: $(git log -n 1 --pretty=format:%an) on $(date)" >> README.md
-        
-        git add README.md
-        git commit -m "Update test status in README [skip ci]"
-        git push
+        cd source
+        python -m pytest
+    
