@@ -28,7 +28,7 @@ Se encargará de organizar las tareas, crear el soporte del proyecto y se asegur
 
 3.- ***Q&A:*** Álvaro González. Desarrollará las pruebas del código.
 
-4.- ***Devops:*** Javier Ortega e Israel Valderrama. Organizarán el procedimiento para automatizar la ejecución de las pruebas de código.
+4.- ***Devops:*** Álvaro González y Victor Jiménez. Organizarán el procedimiento para automatizar la ejecución de las pruebas de código.
 
 5.- ***Developer:*** Javier Ortega e Israel Valderrama. Desarrollarán el código.
 
